@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome TO CONTACT</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="homem.ico" type="image/x-icon" />
+    <script>
+      function msg() {
+        alert("Contato Feito!Entraremos em contato!");
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cover">
+        <img src="alemanha.jpg" alt="" width="963px" height="336px" />
+      </div>
+
+      <nav id="menu-h">
+        <ul>
+          <li>|</li>
+          <li><a href="home.html" target="_blank">Home</a></li>
+          <li>|</li>
+          <li><a href="turismo.html" target="_blank">Turismo</a></li>
+          <li>|</li>
+          <li><a href="cultura.html" target="_blank">Cultura</a></li>
+          <li>|</li>
+          <li><a href="contato.html" target="_blank">Contato</a></li>
+          <li>|</li>
+          <li><a href="login.html" target="_blank">Entrar</a></li>
+        </ul>
+      </nav>
+      <br />
+      <div class="bloco">
+        <div class="elemento">
+          <form class="contato">
+            <label for="name">Seu Nome:</label><br />
+            <input class="nome" type="text" id="name" name="name" /><br />
+
+            <label for="email">Seu email:</label><br />
+            <input class="email" type="email" id="email" name="email" /> <br />
+
+            <label for="phone">Seu telefone:</label><br />
+            <input class="tel" type="tel" id="phone" name="phone" /><br />
+
+            <label for="mensagem">Mensagem:</label><br />
+            <textarea class="mensagem" id="mensagem" name="usuario_mensagem"></textarea>
+            <br />
+
+            <input class="enviar" type="submit" name="botao" value="Enviar" onclick="msg()">
+          </form>
+        </div>
+        <div class="elemento">
+          <h1>Contate-nos!</h1>
+          <img src="trabalheconoscoatt.jpg" alt="" width="350" height="350">
+          <h3><strong>Envie sua solicitação de contato pelo formulário ao lado!</strong></h3>
+        </div>
+      </div>
+      <footer>
+        <div class="rodape">
+          LYSSA & VICTOR INTERNATIONAL 2021 TODOS OS DIREITOS RESERVADOS
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
